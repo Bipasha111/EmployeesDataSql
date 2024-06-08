@@ -28,8 +28,6 @@ app.use("/auth",AuthRouter)
 
 // app.use('/api',Router);
 
-
-
 app.get("/employees",(req,res)=>{
 
     connection.query('SELECT * FROM employees',(err,rows)=>{
@@ -44,9 +42,6 @@ app.get("/employees",(req,res)=>{
   
     
 })
-
-
-
 
 
 app.get("/employees/:id",(req,res)=>{

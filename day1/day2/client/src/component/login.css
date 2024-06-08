@@ -1,0 +1,61 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: #8a2be2;
+}
+.login{
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+    .login-box{
+        padding: 40px;
+        border: 2px solid black;
+        min-width: 400px;
+        border-radius: 4px;
+        background-color: #ffffff;
+
+
+
+    }
+
+    label, input{
+        display: block;
+        width: 100%;
+        margin-block: 8px;
+    }
+    label{
+        font-weight: bold;
+    }
+    input{
+        padding: 8px 16px;
+        border-radius: 4px;
+    }
+    .submit{
+    background-color: #29b4ff;
+    color: white;
+    border: none;
+    margin-top:10px ;
+    width: 330px;
+    height: 35px;
+    border-radius: 2px;
+    background-image: linear-gradient(#ff3400,#ffc01c);
+    }
+    .submit:hover{
+        background-color: #249dde;
+
+    }
+    .sunheading{
+        font-size: 16px;
+    }
+
+  

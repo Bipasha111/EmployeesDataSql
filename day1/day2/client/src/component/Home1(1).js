@@ -39,12 +39,8 @@ class Home1 extends Component {
     console.log(respond)
             
         } catch (error) {
-       console.log("error from fetch api",error)
-            
+       console.log("error from fetch api",error)      
         }
-    
-    
-    
          }
 
 
@@ -59,7 +55,7 @@ class Home1 extends Component {
         <div style={{height:"300px", margin:" 300px auto",backgroundColor:"yellow", width:"500px"}}>
 
                             
-        <div style={{padding:"100px", display:"flex", gap:"2px", flexDirection:"column"}}>
+        <div style={{padding:"50px", display:"flex", gap:"2px", flexDirection:"column"}}>
 
          <span>Name:</span> <input type="text" required
          value={this.state.username}
